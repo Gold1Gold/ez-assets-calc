@@ -1,0 +1,88 @@
+{
+    "ResourceRecordSets": [
+        {
+            "Name": "ez-assets.com.",
+            "Type": "MX",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "1 ASPMX.L.GOOGLE.COM."
+                },
+                {
+                    "Value": "5 ALT1.ASPMX.L.GOOGLE.COM."
+                },
+                {
+                    "Value": "5 ALT2.ASPMX.L.GOOGLE.COM."
+                },
+                {
+                    "Value": "10 ALT3.ASPMX.L.GOOGLE.COM."
+                },
+                {
+                    "Value": "10 ALT4.ASPMX.L.GOOGLE.COM."
+                },
+                {
+                    "Value": "15 oqdct5pcktw6fimrt4tdqarw33hp3pcvnfarn2afqryuloh2f4jq.mx-verification.google.com."
+                }
+            ]
+        },
+        {
+            "Name": "ez-assets.com.",
+            "Type": "NS",
+            "TTL": 172800,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1999.awsdns-57.co.uk."
+                },
+                {
+                    "Value": "ns-1276.awsdns-31.org."
+                },
+                {
+                    "Value": "ns-351.awsdns-43.com."
+                },
+                {
+                    "Value": "ns-925.awsdns-51.net."
+                }
+            ]
+        },
+        {
+            "Name": "ez-assets.com.",
+            "Type": "SOA",
+            "TTL": 900,
+            "ResourceRecords": [
+                {
+                    "Value": "ns-1999.awsdns-57.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                }
+            ]
+        },
+        {
+            "Name": "_d25cf44586e92e4810ccd56283c309dd.ez-assets.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_ded01de5baefd19820a97bef43809395.mvtxpqxpkb.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "_38f6ae6c775f2c95c8c36fb91f57f56d.dev.ez-assets.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_fa8eea74af4487a0be7de42de1ed5c31.mvtxpqxpkb.acm-validations.aws."
+                }
+            ]
+        },
+        {
+            "Name": "_60e307bf74890e2e5baae44c222ca576.re-market.ez-assets.com.",
+            "Type": "CNAME",
+            "TTL": 300,
+            "ResourceRecords": [
+                {
+                    "Value": "_6a734861aef107d0153baddcf4f744e2.mvtxpqxpkb.acm-validations.aws."
+                }
+            ]
+        }
+    ]
+}
