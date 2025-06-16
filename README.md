@@ -2,6 +2,10 @@
 
 A simple web UI to calculate a rental property investment numbers.
 
+## Prerequisites
+
+[NodeJS](https://nodejs.org/en)
+
 ## Available Scripts
 
 In the project directory, you can run:
