@@ -1,13 +1,14 @@
 import './App.css';
+import Header from './components/Header';
 import RealEstateCalculator from './components/RealEstateCalculator';
 import './components/RealEstateCalculator.css';
+import './components/Header.css';
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <section className="NiceSection">
-        <h1>Welcome to EZ Assets Calculators</h1>
-        <p>Calculate your real estate investment returns with our powerful calculator</p>
         <RealEstateCalculator />
       </section>
     </div>

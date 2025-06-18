@@ -1,0 +1,35 @@
+image: node:18
+
+pipelines:
+  branches:
+    main:
+      - step:
+          name: Install and Build
+          caches:
+            - node
+          script:
+            - npm install
+            - npm run build
+            # - npm test
+          artifacts:
+            - build/**
+      - step:
+          name: Deploy
+          script:
+            - pipe: atlassian/aws-s3-deploy:1.6.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_REGION
+                S3_BUCKET: $AWS_S3_BUCKET_NAME
+                LOCAL_PATH: 'build'
+                DELETE_FLAG: 'true'
+
+    # main:
+    #   - step:
+    #       name: Install and Test
+    #       caches:
+    #         - node
+    #       script:
+    #         - npm install
+    #         - npm run 

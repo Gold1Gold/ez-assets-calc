@@ -1,10 +1,6 @@
-# EZ Assets Calculator
+# Getting Started with Create React App
 
-A simple web UI to calculate a rental property investment numbers.
-
-## Prerequisites
-
-[NodeJS](https://nodejs.org/en)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
