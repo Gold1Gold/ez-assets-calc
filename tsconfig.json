@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/to-add-for-glossary"  ]
 }
